@@ -1,0 +1,241 @@
+* {
+    position: fit;
+    background: #F1FFEA;
+   
+}
+
+.container {
+    height: 1000px;
+width: 692px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+position: absolute;
+background-size: contain;
+
+margin-top: -345px;
+margin-left: -8px;
+background: url(Signup2.png);
+}
+
+h2 {
+    height: 40px;
+width: 501px;
+left: 834px;
+top: 160px;
+border-radius: nullpx;
+color: #4D7E3E;
+font-family: Krona One;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    height: 474px;
+width: 401px;
+left: 874px;
+top: 403px;
+border-radius: 0px;
+position: absolute;
+}
+
+.input-box {
+    height: 54px;
+width: 501px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+color: #C8D4C3;
+position: absolute;
+border-radius: 10px;
+}
+
+input {
+    height: 30px;
+width: 402px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+background: #C8D4C3;
+
+}
+
+
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4px;
+width: 5px;
+left: 888px;
+top:878px;
+border-radius: 10px;
+padding: 17px 176px;
+gap: 10px;
+position: absolute;
+
+background: #9E9E9E;
+}
+
+.h-btn1 {
+height: 24px;
+width: 84px;
+left: 8px;
+top: 1px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: center;
+background: #9E9E9E;
+
+opacity: 30%;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+p {
+    height: 20px;
+width: 239.34px;
+left: 964.33px;
+top: 940px;
+border-radius: nullpx;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+position: absolute;
+}
+
+.ai {
+    color: #4D7E3E;
+}
+
+i {
+    height: 2px;
+width: 1px;
+left: 375px;
+top: 215px;
+border-radius: 0px;
+background: #C8D4C3;
+position: absolute;
+}
+
+@media only screen and (max-width: 480px) {
+  
+    .container {
+       position: fixed;
+       background: none;
+        
+    }
+    h2 {
+        height: 14px;
+        width: 505px;
+        left: 834px;
+        top: 160px;
+        border-radius: nullpx;
+        color: #4D7E3E;
+        font-family: Krona One;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    i {
+        height: 2px;
+        width: 1px;
+        left: 370px;
+        top: 285px;
+        border-radius: 0px;
+        background: #C8D4C3;
+        position: fixed;
+    }
+    
+    .form-content {
+        height: 1300px;
+        width: 500px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+        position: absolute;
+        background: #F1FFEA;
+        margin-top: 1px;
+    }
+    .input-box {
+        height: 4px;
+        width: 50px;
+        left: 20px;
+        top: 0px;
+        border-radius: 10px;
+        color: #C8D4C3;
+        position: absolute;
+        
+    }
+    input {
+        height: 20px;
+        width: 300px;
+        left: 0px;
+        top: 0px;
+        border-radius: 10px;
+        background: #C8D4C3;
+    }
+    .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 1px;
+        width: 1px;
+        left: 185px;
+        top: 860px;
+        border-radius: 10px;
+        padding: 15px 60px;
+        gap: 10px;
+        position: absolute;
+        background: #9E9E9E;
+    }
+    .h-btn1 {
+        height: 24px;
+        width: 84px;
+        left: 8px;
+        top: 1px;
+        border-radius: nullpx;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        background: #9E9E9E;
+        opacity: 30%;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+
+}
+
+
