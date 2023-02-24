@@ -1,52 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GURU LEVEL SIGN UP PAGE</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> 
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-        
-        <form action="#">
-            <div class="form-content">
-            <h2>Let's Sign Up!</h2>
-            <div class="inputBox">
-                <input type="text" name="" placeholder="Name"  required="">
-            </div>
+	<div class="container">
+		<div class="image">
+			<img src="https://via.placeholder.com/500x500" alt="Sign Up Image">
+		</div>
+		<div class="form">
+			<h2>Sign Up</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
 
-            <div class="inputBox">
-                <input type="text" name="" placeholder="Select your part..."  required=""> <i class='bx bxs-down-arrow'></i>
-            </div>
-            
-            <div class="inputBox">
-                <input type="text" name="" placeholder="Phone Number"  required="">
-            </div>
-            <div class="inputBox">
-                <input type="text" name="" placeholder="Class Grade"  required="">
-            </div>
-           
-            <div class="inputBox">
-                <input type="text" name="" placeholder="Password"  required="">
-            </div>
-            <div class="inputBox"> 
-                <input type="text" name="" class="input" placeholder="Confirm Password" required="">
-            </div>
-            
-        </div>
-        </form>
-       
-        <div class="button">
-            <a href="" class="h-btn1">SIGN UP</a>  
-         </div>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
 
-         <p>Have an account?<a class="ai" href="#">Sign in</a></p>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
 
-    </div>   
-       
+				<button type="submit">Sign Up</button>
+			</form>
+		</div>
+	</div>
 </body>
 </html>
