@@ -26,6 +26,7 @@
 	height: 100vh;
     position: absolute;
     left: 0px;
+	padding: 1px;
 }
 
 .form {
@@ -90,7 +91,7 @@ a {
 
 i {
     position: absolute;
-    right: 170px;
+    right: 190px;
     top: 32%;
     background-color: #e0e0e0;
     transform: translateY(-50%);
